@@ -1,4 +1,6 @@
 USE employee_DB;
+
+--department--
 INSERT INTO department (name)
 VALUES ("engineering"),
         ("finance"),
@@ -8,7 +10,7 @@ VALUES ("engineering"),
 
  SELECT * FROM department;   
 
-
+--role table--
  INSERT INTO role (title, salary, department_id) VALUES ('Staff', 20000, 1);
 INSERT INTO role (title, salary, department_id) VALUES ('Health ', 50000, 1);
 INSERT INTO role (title, salary, department_id) VALUES ('Accountant', 80000, 1);
@@ -22,7 +24,7 @@ INSERT INTO role (title, salary, department_id) VALUES ('Lead Engineer', 110000,
 
 SELECT * FROM role;
 
-
+--employee table--
  INSERT INTO employee(first_name, last_name, role_id) VALUES ('Tele', 'Deon', 1);
 INSERT INTO employee(first_name, last_name, role_id) VALUES ('Kemph', 'Shore', 2);
 INSERT INTO employee(first_name, last_name, role_id) VALUES ('Swastic', 'Deo', 3);
