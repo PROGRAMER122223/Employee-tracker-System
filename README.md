@@ -31,7 +31,7 @@ To delete a role will be rejected if any employee was given this role, and an er
 To delete a manager will set all report-tos manager to NULL, i.e. with no manager 
 
 ## Walkthrough video
-View walk through video via [Screencastify]()
+View walk through video via [Screencastify](https://watch.screencastify.com/v/dI9EhJDnWZwdqbbm9i18)
 
 ## License 
 This project is license under MIT
